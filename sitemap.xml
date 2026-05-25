@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <url>
+    <loc>https://365247.net/</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://365247.net/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://365247.net/"/>
+  </url>
+
+  <url>
+    <loc>https://365247.net/intel/quantum-leap</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://365247.net/articles/quantum-leap.jpg</image:loc>
+      <image:title>The Quantum Leap: Redefining Encryption Limits</image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>365247.net</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-10-12</news:publication_date>
+      <news:title>The Quantum Leap: Redefining Encryption Limits</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://365247.net/intel/ai-threat-detection</loc>
+    <lastmod>2024-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://365247.net/articles/threat-detection.jpg</image:loc>
+      <image:title>Beyond the Firewall: AI-Driven Threat Detection</image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>365247.net</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-10-11</news:publication_date>
+      <news:title>Beyond the Firewall: AI-Driven Threat Detection</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://365247.net/intel/agi-ethics</loc>
+    <lastmod>2024-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://365247.net/articles/agi-ethics.jpg</image:loc>
+      <image:title>Sentience Protocols: The Ethics of AGI</image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>365247.net</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-10-10</news:publication_date>
+      <news:title>Sentience Protocols: The Ethics of AGI</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://365247.net/archive</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://365247.net/intel</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://365247.net/encryption</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://365247.net/privacy</loc>
+    <lastmod>2024-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

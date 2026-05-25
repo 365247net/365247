@@ -1,0 +1,72 @@
+{
+  "name": "365247.net — Tech Intel",
+  "short_name": "365247",
+  "description": "Tech Intel, Quantum Computing, Cybersecurity & AI News — decrypted for the modern engineer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050608",
+  "theme_color": "#00f0ff",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["news", "technology", "security"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Latest Intel",
+      "short_name": "Intel",
+      "description": "Jump to the latest tech intelligence briefings",
+      "url": "/intel",
+      "icons": [{ "src": "/icons/shortcut-intel.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Security Logs",
+      "short_name": "Logs",
+      "description": "View decrypted security logs",
+      "url": "/logs",
+      "icons": [{ "src": "/icons/shortcut-logs.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "365247.net home page on desktop"
+    },
+    {
+      "src": "/screenshots/home-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "365247.net home page on mobile"
+    }
+  ]
+}
