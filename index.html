@@ -1,313 +1,84 @@
 <!DOCTYPE html>
 <html class="dark" lang="en">
 <head>
-  <!-- ============================================ -->
-  <!--  CORE                                        -->
-  <!-- ============================================ -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="color-scheme" content="dark light" />
-  <meta name="theme-color" content="#00f0ff" media="(prefers-color-scheme: dark)" />
-  <meta name="theme-color" content="#050608" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#00f0ff" />
 
-  <!-- ============================================ -->
-  <!--  PRIMARY SEO                                 -->
-  <!-- ============================================ -->
-  <title>365247.net — Tech Intel, Quantum Computing, Cybersecurity &amp; AI News</title>
-  <meta name="description" content="365247.net delivers daily technical intelligence on quantum computing breakthroughs, zero-day cybersecurity threats, AI research, and emerging engineering trends. Decrypted, curated, engineer-grade." />
-  <meta name="keywords" content="tech news, cybersecurity, quantum computing, AI, artificial intelligence, AGI, zero-day, threat intelligence, engineering, developer news, 365247" />
-  <meta name="author" content="365247.net Editorial" />
-  <meta name="publisher" content="365247.net" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <meta name="format-detection" content="telephone=no" />
+  <title>365247.net — Custom Websites &amp; Software Development</title>
+  <meta name="description" content="365247.net is a startup that builds custom websites and software tailored to your business needs. Tell us what you need — we'll build it." />
+  <meta name="keywords" content="web development, custom software, website design, software development, startup, custom solutions" />
+  <meta name="author" content="365247.net" />
+  <meta name="robots" content="index, follow" />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://365247.net/" />
-  <link rel="alternate" hreflang="en" href="https://365247.net/" />
-  <link rel="alternate" hreflang="x-default" href="https://365247.net/" />
 
-  <!-- ============================================ -->
-  <!--  OPEN GRAPH (Facebook, LinkedIn, Slack)      -->
-  <!-- ============================================ -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="365247.net" />
-  <meta property="og:title" content="365247.net — Tech Intel, Quantum, Cybersecurity &amp; AI News" />
-  <meta property="og:description" content="Daily technical briefings, decrypted security logs, and quantum-era updates for the modern engineer." />
+  <meta property="og:title" content="365247.net — Custom Websites &amp; Software Development" />
+  <meta property="og:description" content="We build custom websites and software tailored to your business needs." />
   <meta property="og:url" content="https://365247.net/" />
-  <meta property="og:image" content="https://365247.net/og-image.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="365247.net logo on a cyberpunk terminal interface" />
   <meta property="og:locale" content="en_US" />
 
-  <!-- ============================================ -->
-  <!--  TWITTER / X CARDS                           -->
-  <!-- ============================================ -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@365247net" />
-  <meta name="twitter:creator" content="@365247net" />
-  <meta name="twitter:title" content="365247.net — Tech Intel, Quantum, Cybersecurity &amp; AI News" />
-  <meta name="twitter:description" content="Daily technical briefings, decrypted security logs, and quantum-era updates for the modern engineer." />
-  <meta name="twitter:image" content="https://365247.net/og-image.jpg" />
-  <meta name="twitter:image:alt" content="365247.net logo on a cyberpunk terminal interface" />
+  <meta name="twitter:title" content="365247.net — Custom Websites &amp; Software" />
+  <meta name="twitter:description" content="We build custom websites and software tailored to your business needs." />
 
-  <!-- ============================================ -->
-  <!--  FAVICONS & PWA                              -->
-  <!-- ============================================ -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00f0ff" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="365247" />
-  <meta name="application-name" content="365247.net" />
 
-  <!-- ============================================ -->
-  <!--  PERFORMANCE: PRECONNECT + DNS-PREFETCH      -->
-  <!-- ============================================ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
-  <link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
 
-  <!-- Fonts: display=swap prevents FOIT, boosts LCP -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@700;800;900&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-  <!-- ============================================ -->
-  <!--  RSS / FEEDS                                 -->
-  <!-- ============================================ -->
-  <link rel="alternate" type="application/rss+xml" title="365247.net RSS Feed" href="/feed.xml" />
-  <link rel="alternate" type="application/atom+xml" title="365247.net Atom Feed" href="/atom.xml" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-
-  <!-- ============================================ -->
-  <!--  STRUCTURED DATA (JSON-LD)                   -->
-  <!-- ============================================ -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://365247.net/#organization",
-          "name": "365247.net",
-          "url": "https://365247.net/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://365247.net/logo.png",
-            "width": 512,
-            "height": 512
-          },
-          "sameAs": [
-            "https://twitter.com/365247net",
-            "https://github.com/365247net",
-            "https://linkedin.com/company/365247net"
-          ],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "admin@365247.net",
-            "contactType": "customer support",
-            "availableLanguage": ["English"]
-          }
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://365247.net/#website",
-          "url": "https://365247.net/",
-          "name": "365247.net",
-          "description": "Tech Intel, Quantum Computing, Cybersecurity & AI News",
-          "publisher": { "@id": "https://365247.net/#organization" },
-          "inLanguage": "en-US",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://365247.net/search?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://365247.net/#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://365247.net/" },
-            { "@type": "ListItem", "position": 2, "name": "Intel", "item": "https://365247.net/intel/" }
-          ]
-        },
-        {
-          "@type": "NewsArticle",
-          "headline": "The Quantum Leap: Redefining Encryption Limits",
-          "image": ["https://365247.net/articles/quantum-leap.jpg"],
-          "datePublished": "2024-10-12T08:00:00+00:00",
-          "dateModified": "2024-10-12T08:00:00+00:00",
-          "author": { "@type": "Organization", "name": "365247.net Editorial" },
-          "publisher": { "@id": "https://365247.net/#organization" },
-          "mainEntityOfPage": "https://365247.net/intel/quantum-leap",
-          "articleSection": "Quantum Computing",
-          "description": "New topological qubit stabilizes coherence at record temperatures, threatening current RSA standards while promising a new era of computational power."
-        },
-        {
-          "@type": "NewsArticle",
-          "headline": "Beyond the Firewall: AI-Driven Threat Detection",
-          "image": ["https://365247.net/articles/threat-detection.jpg"],
-          "datePublished": "2024-10-11T08:00:00+00:00",
-          "dateModified": "2024-10-11T08:00:00+00:00",
-          "author": { "@type": "Organization", "name": "365247.net Editorial" },
-          "publisher": { "@id": "https://365247.net/#organization" },
-          "mainEntityOfPage": "https://365247.net/intel/ai-threat-detection",
-          "articleSection": "Cybersecurity",
-          "description": "Autonomous defensive agents are now capable of predicting zero-day exploits before they are launched using pattern recognition from deep-web chatter."
-        },
-        {
-          "@type": "NewsArticle",
-          "headline": "Sentience Protocols: The Ethics of AGI",
-          "image": ["https://365247.net/articles/agi-ethics.jpg"],
-          "datePublished": "2024-10-10T08:00:00+00:00",
-          "dateModified": "2024-10-10T08:00:00+00:00",
-          "author": { "@type": "Organization", "name": "365247.net Editorial" },
-          "publisher": { "@id": "https://365247.net/#organization" },
-          "mainEntityOfPage": "https://365247.net/intel/agi-ethics",
-          "articleSection": "AI Revolution",
-          "description": "As LLMs transition into fully autonomous agents, the industry debates the implementation of hard-coded ethical kill-switches."
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is 365247.net?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "365247.net is a daily technical intelligence stream covering quantum computing, cybersecurity, AI research, and emerging engineering trends — curated for working engineers."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is the intel stream free?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Subscribing to the newsletter is free. A paid tier with deeper technical briefings and decrypted security logs is also available."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How often are briefings published?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Daily, 24/7. All connections and dispatches are encrypted via quantum-safe protocols."
-              }
-            }
-          ]
-        }
-      ]
-    }
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "365247.net",
+    "url": "https://365247.net/",
+    "description": "Startup that builds custom websites and software tailored to client needs.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "admin@365247.net",
+      "contactType": "sales"
+    },
+    "sameAs": ["https://twitter.com/365247net", "https://github.com/365247net"]
+  }
   </script>
 
-  <!-- ============================================ -->
-  <!--  TAILWIND CONFIG (CDN — for production,      -->
-  <!--  compile this with the Tailwind CLI)         -->
-  <!-- ============================================ -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <script id="tailwind-config">
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <script>
     tailwind.config = {
       darkMode: "class",
       theme: {
         extend: {
           colors: {
-            "on-primary-fixed-variant": "#004f54",
-            "text-dim": "#8892a4",
-            "surface-container-low": "#1c1b1b",
-            "bg-elevated": "#111922",
-            "on-tertiary-container": "#b6251f",
-            "surface-container-highest": "#353534",
-            "on-secondary": "#003907",
-            "on-error-container": "#ffdad6",
-            "text-primary": "#e0e0e0",
-            "on-surface": "#e5e2e1",
-            "primary-fixed-dim": "#00dbe9",
-            secondary: "#ecffe3",
-            "secondary-fixed": "#72ff70",
-            "on-surface-variant": "#b9cacb",
-            "tertiary-fixed": "#ffdad5",
-            "on-secondary-container": "#007117",
-            "on-background": "#e5e2e1",
-            "secondary-fixed-dim": "#00e639",
-            "on-error": "#690005",
-            "on-primary-container": "#006970",
-            "primary-container": "#00f0ff",
-            "on-secondary-fixed": "#002203",
-            "error-container": "#93000a",
-            "inverse-surface": "#e5e2e1",
-            "glow-green": "rgba(0, 255, 65, 0.3)",
+            cyan:    "#00f0ff",
+            "cyan-dim": "#00dbe9",
+            "cyan-glow": "rgba(0,240,255,0.2)",
+            green:   "#00e639",
             surface: "#131313",
-            "on-tertiary-fixed-variant": "#920309",
-            "tertiary-container": "#ffcec8",
-            "tertiary-fixed-dim": "#ffb4aa",
-            "on-primary-fixed": "#002022",
-            "primary-fixed": "#7df4ff",
-            primary: "#dbfcff",
-            "secondary-container": "#13ff43",
-            "surface-tint": "#00dbe9",
-            "surface-variant": "#353534",
-            "surface-bright": "#3a3939",
-            "outline-variant": "#3b494b",
-            "surface-container-high": "#2a2a2a",
+            "surface-card": "rgba(17,25,34,0.7)",
+            "surface-low": "#0e0e0e",
             "bg-deep": "#050608",
-            "on-primary": "#00363a",
-            "border-muted": "#1e293b",
-            "surface-dim": "#131313",
-            error: "#ffb4ab",
-            tertiary: "#fff3f2",
-            outline: "#849495",
-            "inverse-primary": "#006970",
-            "on-secondary-fixed-variant": "#00530e",
-            "on-tertiary": "#690003",
-            background: "#131313",
-            "glow-cyan": "rgba(0, 240, 255, 0.3)",
-            "surface-container": "#201f1f",
-            "on-tertiary-fixed": "#410001",
-            "surface-container-lowest": "#0e0e0e",
-            "inverse-on-surface": "#313030"
-          },
-          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
-          spacing: {
-            base: "8px",
-            "section-gap": "64px",
-            "container-max": "1200px",
-            gutter: "24px",
-            "margin-mobile": "16px"
+            "text-muted": "#8892a4",
+            "text-body": "#b9cacb",
+            "border-default": "#1e293b",
+            "border-glow": "#00f0ff"
           },
           fontFamily: {
-            "display-lg": ["Orbitron", "sans-serif"],
-            "body-md": ["Inter", "sans-serif"],
-            "display-lg-mobile": ["Orbitron", "sans-serif"],
-            "headline-md": ["Orbitron", "sans-serif"],
-            "code-sm": ["JetBrains Mono", "monospace"],
-            "status-bar": ["JetBrains Mono", "monospace"],
-            "label-caps": ["JetBrains Mono", "monospace"]
-          },
-          fontSize: {
-            "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "0.05em", fontWeight: "700" }],
-            "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
-            "display-lg-mobile": ["32px", { lineHeight: "1.2", fontWeight: "700" }],
-            "headline-md": ["24px", { lineHeight: "1.4", letterSpacing: "0.02em", fontWeight: "600" }],
-            "code-sm": ["14px", { lineHeight: "1.5", fontWeight: "400" }],
-            "status-bar": ["10px", { lineHeight: "1", letterSpacing: "0.1em", fontWeight: "400" }],
-            "label-caps": ["12px", { lineHeight: "1.2", letterSpacing: "0.15em", fontWeight: "500" }]
+            display: ["Orbitron", "sans-serif"],
+            body:    ["Inter", "sans-serif"],
+            mono:    ["JetBrains Mono", "monospace"]
           }
         }
       }
@@ -315,514 +86,403 @@
   </script>
 
   <style>
-    /* ============================================ */
-    /*  GLOBAL                                      */
-    /* ============================================ */
-    body { background-color: #050608; color: #e5e2e1; overflow-x: hidden; }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #050608; color: #e5e2e1; overflow-x: hidden; font-family: "Inter", sans-serif; }
 
-    /* ---- Skip link (a11y) -------------------- */
-    .skip-link {
-      position: absolute; left: -9999px; top: 0; z-index: 10000;
-      background: #00f0ff; color: #050608; padding: 12px 20px;
-      font-family: "JetBrains Mono", monospace; font-weight: 700;
-      letter-spacing: 0.15em; text-transform: uppercase;
-    }
+    /* Skip link */
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 10000; background: #00f0ff; color: #050608; padding: 12px 20px; font-family: "JetBrains Mono", monospace; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
     .skip-link:focus { left: 16px; top: 16px; outline: 2px solid #fff; }
 
-    /* ---- Focus rings (a11y) ------------------- */
-    a:focus-visible, button:focus-visible, input:focus-visible {
-      outline: 2px solid #00f0ff; outline-offset: 3px; border-radius: 2px;
-    }
+    /* Focus */
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #00f0ff; outline-offset: 3px; border-radius: 2px; }
 
-    /* ---- Scanlines overlay -------------------- */
-    .scanlines {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-      background:
-        linear-gradient(rgba(18,16,16,0) 50%, rgba(0,0,0,0.25) 50%),
-        linear-gradient(90deg, rgba(255,0,0,0.06), rgba(0,255,0,0.02), rgba(0,0,255,0.06));
-      z-index: 9999; background-size: 100% 4px, 3px 100%;
-      pointer-events: none; opacity: 0.05;
-    }
+    /* Matrix bg */
+    #matrix-canvas { position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.12; }
 
-    .circuit-divider { height: 2px; background: linear-gradient(90deg, transparent, #00f0ff, transparent); position: relative; }
-    .circuit-divider::before {
-      content: ''; position: absolute; width: 8px; height: 8px; background: #00f0ff;
-      left: 50%; top: -3px; transform: rotate(45deg); box-shadow: 0 0 10px #00f0ff;
-    }
+    /* Scanlines overlay */
+    .scanlines { position: fixed; inset: 0; background: linear-gradient(rgba(18,16,16,0) 50%, rgba(0,0,0,0.22) 50%), linear-gradient(90deg, rgba(255,0,0,0.05), rgba(0,255,0,0.02), rgba(0,0,255,0.05)); background-size: 100% 4px, 3px 100%; z-index: 9999; pointer-events: none; opacity: 0.04; }
 
-    @keyframes pulse-ring { 0% { transform: scale(0.33); opacity: 0; } 50% { opacity: 1; } 100% { transform: scale(1.1); opacity: 0; } }
+    /* Card */
+    .card { background: rgba(17,25,34,0.65); border: 1px solid #1e293b; backdrop-filter: blur(12px); transition: border-color .3s, box-shadow .3s; }
+    .card:hover { border-color: #00f0ff; box-shadow: 0 0 20px rgba(0,240,255,0.15); }
+
+    /* Divider */
+    .divider { height: 1px; background: linear-gradient(90deg, transparent, #00f0ff 50%, transparent); position: relative; }
+    .divider::before { content: ''; position: absolute; width: 6px; height: 6px; background: #00f0ff; left: 50%; top: -3px; transform: rotate(45deg); box-shadow: 0 0 8px #00f0ff; }
+
+    /* Glitch */
     @keyframes glitch {
-      0% { transform: translate(0); text-shadow: -2px 2px #00f0ff, 2px -2px #ff00ff; }
-      20% { transform: translate(-2px, 2px); }
-      40% { transform: translate(-2px, -2px); }
-      60% { transform: translate(2px, 2px); }
-      80% { transform: translate(2px, -2px); }
-      100% { transform: translate(0); text-shadow: 2px -2px #00f0ff, -2px 2px #ff00ff; }
+      0%   { text-shadow: -2px 0 #00f0ff, 2px 0 #ff00ff; }
+      25%  { text-shadow:  2px 0 #00f0ff,-2px 0 #ff00ff; }
+      50%  { text-shadow: -1px 0 #00f0ff, 1px 0 #ff00ff; }
+      75%  { text-shadow:  1px 0 #00f0ff,-1px 0 #ff00ff; }
+      100% { text-shadow: -2px 0 #00f0ff, 2px 0 #ff00ff; }
     }
-    .animate-glitch { animation: glitch 0.5s infinite linear alternate-reverse; }
+    .glitch { animation: glitch .6s infinite linear alternate-reverse; }
 
-    .ticker-wrap { overflow: hidden; background: #000; white-space: nowrap; }
-    .ticker { display: inline-block; animation: ticker 30s linear infinite; }
-    @keyframes ticker { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+    /* Pulse ring */
+    @keyframes pulse-ring { 0% { transform: scale(.3); opacity: 0; } 50% { opacity: .6; } 100% { transform: scale(1.1); opacity: 0; } }
+    .ring { position: absolute; inset: 0; border-radius: 50%; border: 2px solid #00f0ff; animation: pulse-ring 3s cubic-bezier(.215,.61,.355,1) infinite; }
 
-    .terminal-card {
-      background: rgba(17, 25, 34, 0.6);
-      border: 1px solid #1e293b;
-      backdrop-filter: blur(10px);
-      transition: all 0.3s ease;
-    }
-    .terminal-card:hover, .terminal-card:focus-within {
-      border-color: #00f0ff;
-      box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
-    }
+    /* Step connector */
+    .step-line { flex: 1; height: 1px; background: linear-gradient(90deg, #00f0ff, #1e293b); }
 
-    .ai-core-ring {
-      position: absolute; border-radius: 100%; border: 2px solid #00f0ff;
-      animation: pulse-ring 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-    }
+    /* Btn primary */
+    .btn-primary { display: inline-block; border: 1px solid #00f0ff; padding: 14px 36px; font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: .15em; text-transform: uppercase; color: #00f0ff; transition: background .25s, color .25s, box-shadow .25s; }
+    .btn-primary:hover { background: #00f0ff; color: #050608; box-shadow: 0 0 28px rgba(0,240,255,0.45); }
 
-    #matrix-canvas { position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.15; }
+    /* Btn outline */
+    .btn-outline { display: inline-block; border: 1px solid #3b494b; padding: 14px 36px; font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: .15em; text-transform: uppercase; color: #b9cacb; transition: border-color .25s, color .25s; }
+    .btn-outline:hover { border-color: #00f0ff; color: #00f0ff; }
 
-    /* ============================================ */
-    /*  REDUCED MOTION (a11y)                       */
-    /* ============================================ */
+    /* Tag */
+    .tag { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-      }
-      .ticker { animation: none; }
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
       #matrix-canvas { display: none; }
-    }
-
-    /* line-clamp util (Tailwind ships it but guard for older builds) */
-    .line-clamp-3 {
-      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
-      overflow: hidden;
     }
   </style>
 </head>
-<body class="font-body-md text-body-md">
-  <!-- Skip link for keyboard / screen-reader users -->
+<body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <!-- Background FX -->
   <canvas id="matrix-canvas" aria-hidden="true"></canvas>
   <div class="scanlines" aria-hidden="true"></div>
 
-  <!-- ============================================ -->
-  <!--  HEADER / PRIMARY NAV                         -->
-  <!-- ============================================ -->
-  <header
-    role="banner"
-    class="fixed top-0 w-full z-50 flex justify-between items-center px-gutter py-4 max-w-full bg-surface/80 backdrop-blur-md border-b border-outline-variant after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-primary-container after:animate-pulse shadow-[0_0_15px_rgba(0,240,255,0.1)]"
-  >
-    <a href="/" class="flex items-center gap-base" aria-label="365247.net home">
-      <span class="material-symbols-outlined text-primary-fixed-dim" style="font-variation-settings: 'FILL' 1;" aria-hidden="true">terminal</span>
-      <span class="font-display-lg text-[24px] text-primary tracking-tighter drop-shadow-[0_0_8px_rgba(0,240,255,0.6)]">365247.net</span>
+  <!-- =============================== HEADER =============================== -->
+  <header role="banner" class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-10 py-4 bg-surface/90 backdrop-blur-md border-b border-[#1e293b]" style="box-shadow:0 0 12px rgba(0,240,255,0.08)">
+    <a href="/" aria-label="365247.net home" class="flex items-center gap-2">
+      <span class="material-symbols-outlined text-cyan-dim" style="font-variation-settings:'FILL' 1" aria-hidden="true">terminal</span>
+      <span class="font-display text-[20px] text-[#dbfcff] tracking-tight" style="text-shadow:0 0 10px rgba(0,240,255,0.5)">365247.net</span>
     </a>
 
     <nav class="hidden md:flex gap-8 items-center" aria-label="Primary">
-      <a class="font-label-caps text-label-caps text-primary border-b-2 border-primary-fixed-dim pb-1" href="/archive" aria-current="page">ARCHIVE</a>
-      <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all duration-300" href="/encryption">ENCRYPTION</a>
-      <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all duration-300" href="/intel">INTEL</a>
-      <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all duration-300" href="/upgrade">UPGRADE</a>
+      <a href="#services"  class="tag text-[#b9cacb] hover:text-[#00f0ff] transition-colors">SERVICES</a>
+      <a href="#process"   class="tag text-[#b9cacb] hover:text-[#00f0ff] transition-colors">HOW IT WORKS</a>
+      <a href="#why-us"    class="tag text-[#b9cacb] hover:text-[#00f0ff] transition-colors">WHY US</a>
+      <a href="#contact"   class="tag text-[#b9cacb] hover:text-[#00f0ff] transition-colors">CONTACT</a>
     </nav>
 
-    <div class="flex gap-4 items-center">
-      <button type="button" aria-label="Open terminal" class="material-symbols-outlined text-on-surface-variant hover:text-primary-fixed-dim transition-colors">terminal</button>
-      <button type="button" aria-label="Open settings" class="material-symbols-outlined text-on-surface-variant hover:text-primary-fixed-dim transition-colors">settings</button>
-    </div>
+    <a href="#contact" class="btn-primary text-[11px] px-5 py-2">GET A QUOTE</a>
   </header>
 
-  <main id="main-content" class="pt-24" role="main">
+  <main id="main-content" class="pt-[72px]" role="main">
 
-    <!-- ============================================ -->
-    <!--  HERO                                        -->
-    <!-- ============================================ -->
-    <section class="relative min-h-[819px] flex flex-col items-center justify-center text-center px-gutter overflow-hidden" aria-labelledby="hero-heading">
-      <!-- AI core -->
-      <div class="relative w-48 h-48 mb-12 flex items-center justify-center" aria-hidden="true">
-        <div class="ai-core-ring w-full h-full" style="animation-delay: 0s"></div>
-        <div class="ai-core-ring w-full h-full" style="animation-delay: 1s"></div>
-        <div class="ai-core-ring w-full h-full" style="animation-delay: 2s"></div>
-        <div class="absolute w-32 h-32 rounded-full border-4 border-dashed border-primary-container animate-[spin_10s_linear_infinite]"></div>
-        <div class="absolute w-16 h-16 rounded-full bg-primary-container/20 flex items-center justify-center border border-primary-container shadow-[0_0_30px_rgba(0,240,255,0.5)]">
-          <span class="material-symbols-outlined text-primary-fixed-dim text-4xl" style="font-variation-settings: 'FILL' 1;">bolt</span>
+    <!-- =============================== HERO ================================ -->
+    <section aria-labelledby="hero-heading" class="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-24 overflow-hidden">
+
+      <!-- Decorative pulse rings -->
+      <div class="relative w-40 h-40 mb-16 flex items-center justify-center" aria-hidden="true">
+        <div class="ring" style="animation-delay:0s"></div>
+        <div class="ring" style="animation-delay:1s"></div>
+        <div class="ring" style="animation-delay:2s"></div>
+        <div class="absolute w-24 h-24 rounded-full border-2 border-dashed border-[#00f0ff]/30" style="animation:spin 12s linear infinite"></div>
+        <div class="absolute w-14 h-14 rounded-full flex items-center justify-center border border-[#00f0ff]" style="background:rgba(0,240,255,0.06);box-shadow:0 0 30px rgba(0,240,255,0.35)">
+          <span class="material-symbols-outlined text-[#00dbe9] text-3xl" style="font-variation-settings:'FILL' 1">code</span>
         </div>
-        <div class="absolute -bottom-8 w-max font-code-sm text-code-sm text-primary-fixed-dim tracking-widest animate-pulse">J.A.R.V.I.S. INTERFACE ONLINE</div>
       </div>
 
-      <h1 id="hero-heading" class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-4 animate-glitch">
-        365247.net <span class="sr-only">— </span><span aria-hidden="true">//</span> Tech Intel
+      <!-- Label -->
+      <p class="tag text-[#00dbe9] mb-4 tracking-[.3em]">// STARTUP · EST. 2026</p>
+
+      <!-- Headline -->
+      <h1 id="hero-heading" class="font-display text-[36px] sm:text-[52px] md:text-[64px] text-[#dbfcff] leading-tight mb-6 glitch max-w-4xl">
+        We Build Websites &amp; Software<br class="hidden sm:block" /> Your Way.
       </h1>
-      <p class="font-code-sm text-code-sm md:text-headline-md text-text-dim max-w-2xl mx-auto mb-12 uppercase tracking-widest">
-        The ultimate data stream for the modern engineer.
-        <span class="animate-[blink_1s_infinite]" aria-hidden="true">▮</span>
+
+      <!-- Sub -->
+      <p class="text-[18px] text-[#b9cacb] max-w-xl mx-auto mb-12 leading-relaxed">
+        Tell us what your business needs. We design and develop custom websites and software solutions — from scratch, built exactly for you.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-base">
-        <a href="#featured" class="border border-primary-container px-8 py-3 font-label-caps text-label-caps text-primary hover:bg-primary-container hover:text-bg-deep transition-all duration-300 shadow-[0_0_15px_rgba(0,240,255,0.2)] hover:shadow-[0_0_30px_rgba(0,240,255,0.5)]">
-          [ ACCESS_CORE ]
-        </a>
-        <a href="/logs" class="border border-outline px-8 py-3 font-label-caps text-label-caps text-on-surface-variant hover:border-primary transition-all duration-300">
-          [ DOWNLOAD_LOGS ]
-        </a>
+      <!-- CTAs -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="btn-primary">[ START YOUR PROJECT ]</a>
+        <a href="#services" class="btn-outline">[ SEE OUR SERVICES ]</a>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40" aria-hidden="true">
+        <span class="tag text-[#8892a4] text-[9px]">SCROLL</span>
+        <span class="material-symbols-outlined text-[#8892a4] text-sm animate-bounce">arrow_downward</span>
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!--  BREAKING NEWS TICKER                        -->
-    <!-- ============================================ -->
-    <div class="ticker-wrap py-2 border-y border-outline-variant bg-surface-container-lowest" role="marquee" aria-label="Breaking news ticker">
-      <div class="ticker flex gap-12 font-code-sm text-code-sm text-secondary-fixed-dim uppercase">
-        <span>// BREAKING: QUANTUM ENTANGLEMENT ACHIEVED AT ROOM TEMPERATURE</span>
-        <span>// SECURITY ALERT: ZERO-DAY VULNERABILITY DETECTED IN GLOBAL CORE ROUTERS</span>
-        <span>// SYSTEM STATUS: ALL NODES OPERATIONAL AT 99.999% EFFICIENCY</span>
-        <span>// INTEL: NEW AI MODEL 'NOVA-X' OUTPERFORMS HUMAN EXPERTS IN ARCHITECTURAL DESIGN</span>
-        <span>// MARKET: TECH SECTOR SURGE DRIVEN BY SEMICONDUCTOR BREAKTHROUGH</span>
-      </div>
-    </div>
+    <!-- Divider -->
+    <div class="max-w-5xl mx-auto px-6"><div class="divider"></div></div>
 
-    <!-- ============================================ -->
-    <!--  FEATURED ARTICLES                           -->
-    <!-- ============================================ -->
-    <section id="featured" class="py-section-gap px-gutter max-w-container-max mx-auto" aria-labelledby="featured-heading">
-      <div class="flex flex-col md:flex-row justify-between items-end mb-12 border-l-4 border-primary-container pl-6">
-        <div>
-          <h2 id="featured-heading" class="font-headline-md text-headline-md text-primary mb-2">SYSTEM_FILES <span aria-hidden="true">//</span> Featured Stories</h2>
-          <p class="font-code-sm text-code-sm text-text-dim">Decrypting latest technological advancements</p>
+    <!-- =============================== SERVICES ============================ -->
+    <section id="services" class="py-28 px-6 max-w-5xl mx-auto" aria-labelledby="services-heading">
+      <div class="border-l-4 border-[#00f0ff] pl-6 mb-16">
+        <p class="tag text-[#00dbe9] mb-2">// WHAT WE DO</p>
+        <h2 id="services-heading" class="font-display text-[28px] sm:text-[34px] text-[#dbfcff] leading-snug">Our Services</h2>
+        <p class="text-[#8892a4] font-mono text-sm mt-2">Two things, done right — every time.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Service 1 — Web -->
+        <article class="card rounded p-8 group">
+          <div class="w-14 h-14 rounded border border-[#00f0ff]/40 flex items-center justify-center mb-6 group-hover:border-[#00f0ff] group-hover:shadow-[0_0_16px_rgba(0,240,255,0.25)] transition-all">
+            <span class="material-symbols-outlined text-[#00dbe9] text-3xl" style="font-variation-settings:'FILL' 1" aria-hidden="true">web</span>
+          </div>
+          <h3 class="font-display text-[18px] text-[#dbfcff] mb-4 leading-snug">Website Design &amp; Development</h3>
+          <p class="text-[#b9cacb] text-sm leading-relaxed mb-6">
+            From a simple landing page to a full e-commerce platform — we design and build websites that look great, load fast, and convert visitors into customers.
+          </p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00f0ff] inline-block"></span> Landing Pages &amp; Business Sites</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00f0ff] inline-block"></span> E-Commerce Stores</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00f0ff] inline-block"></span> Portfolios &amp; Personal Brands</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00f0ff] inline-block"></span> Custom CMS &amp; Admin Dashboards</li>
+          </ul>
+        </article>
+
+        <!-- Service 2 — Software -->
+        <article class="card rounded p-8 group">
+          <div class="w-14 h-14 rounded border border-[#00e639]/40 flex items-center justify-center mb-6 group-hover:border-[#00e639] group-hover:shadow-[0_0_16px_rgba(0,230,57,0.2)] transition-all">
+            <span class="material-symbols-outlined text-[#00e639] text-3xl" style="font-variation-settings:'FILL' 1" aria-hidden="true">terminal</span>
+          </div>
+          <h3 class="font-display text-[18px] text-[#dbfcff] mb-4 leading-snug">Custom Software Development</h3>
+          <p class="text-[#b9cacb] text-sm leading-relaxed mb-6">
+            Need something that doesn't exist yet? We build bespoke software — web apps, internal tools, automation systems — tailored precisely to how your business operates.
+          </p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00e639] inline-block"></span> Web Applications &amp; Portals</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00e639] inline-block"></span> Business Automation Tools</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00e639] inline-block"></span> API &amp; Backend Systems</li>
+            <li class="flex items-center gap-2 tag text-[10px] text-[#8892a4]"><span class="w-1.5 h-1.5 rounded-full bg-[#00e639] inline-block"></span> Internal Management Systems</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="max-w-5xl mx-auto px-6"><div class="divider"></div></div>
+
+    <!-- =============================== PROCESS ============================ -->
+    <section id="process" class="py-28 px-6 max-w-5xl mx-auto" aria-labelledby="process-heading">
+      <div class="border-l-4 border-[#00e639] pl-6 mb-16">
+        <p class="tag text-[#00e639] mb-2">// HOW IT WORKS</p>
+        <h2 id="process-heading" class="font-display text-[28px] sm:text-[34px] text-[#dbfcff] leading-snug">From Idea to Launch</h2>
+        <p class="text-[#8892a4] font-mono text-sm mt-2">Four simple steps — no jargon, no surprises.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Step 1 -->
+        <div class="card rounded p-6 group text-center">
+          <div class="w-12 h-12 rounded-full border border-[#00f0ff]/50 flex items-center justify-center mx-auto mb-5 group-hover:border-[#00f0ff] group-hover:shadow-[0_0_14px_rgba(0,240,255,0.3)] transition-all">
+            <span class="font-display text-[18px] text-[#00dbe9]">01</span>
+          </div>
+          <span class="material-symbols-outlined text-[#00dbe9] text-2xl mb-3 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">forum</span>
+          <h3 class="font-display text-[13px] text-[#dbfcff] mb-3 leading-snug">Discuss</h3>
+          <p class="text-[#8892a4] text-[13px] leading-relaxed">You tell us what you need. We listen, ask the right questions, and understand your goals.</p>
         </div>
-        <div class="text-status-bar font-status-bar text-on-primary-fixed-variant mt-4 md:mt-0" aria-hidden="true">
-          ID: 4859-XQ | LOAD_TIME: 42ms
+
+        <!-- Step 2 -->
+        <div class="card rounded p-6 group text-center">
+          <div class="w-12 h-12 rounded-full border border-[#00f0ff]/50 flex items-center justify-center mx-auto mb-5 group-hover:border-[#00f0ff] group-hover:shadow-[0_0_14px_rgba(0,240,255,0.3)] transition-all">
+            <span class="font-display text-[18px] text-[#00dbe9]">02</span>
+          </div>
+          <span class="material-symbols-outlined text-[#00dbe9] text-2xl mb-3 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">design_services</span>
+          <h3 class="font-display text-[13px] text-[#dbfcff] mb-3 leading-snug">Design</h3>
+          <p class="text-[#8892a4] text-[13px] leading-relaxed">We create a design that matches your brand and vision. You review and approve before we write a single line of code.</p>
         </div>
+
+        <!-- Step 3 -->
+        <div class="card rounded p-6 group text-center">
+          <div class="w-12 h-12 rounded-full border border-[#00f0ff]/50 flex items-center justify-center mx-auto mb-5 group-hover:border-[#00f0ff] group-hover:shadow-[0_0_14px_rgba(0,240,255,0.3)] transition-all">
+            <span class="font-display text-[18px] text-[#00dbe9]">03</span>
+          </div>
+          <span class="material-symbols-outlined text-[#00dbe9] text-2xl mb-3 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">code</span>
+          <h3 class="font-display text-[13px] text-[#dbfcff] mb-3 leading-snug">Build</h3>
+          <p class="text-[#8892a4] text-[13px] leading-relaxed">We develop your website or software with clean, fast, and maintainable code. You get regular progress updates throughout.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="card rounded p-6 group text-center">
+          <div class="w-12 h-12 rounded-full border border-[#00f0ff]/50 flex items-center justify-center mx-auto mb-5 group-hover:border-[#00f0ff] group-hover:shadow-[0_0_14px_rgba(0,240,255,0.3)] transition-all">
+            <span class="font-display text-[18px] text-[#00dbe9]">04</span>
+          </div>
+          <span class="material-symbols-outlined text-[#00dbe9] text-2xl mb-3 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">rocket_launch</span>
+          <h3 class="font-display text-[13px] text-[#dbfcff] mb-3 leading-snug">Launch</h3>
+          <p class="text-[#8892a4] text-[13px] leading-relaxed">We deploy, test, and hand over your project. Ongoing support available — we don't disappear after delivery.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="max-w-5xl mx-auto px-6"><div class="divider"></div></div>
+
+    <!-- =============================== WHY US ============================== -->
+    <section id="why-us" class="py-28 px-6 max-w-5xl mx-auto" aria-labelledby="why-heading">
+      <div class="border-l-4 border-[#c0b3ff] pl-6 mb-16">
+        <p class="tag text-[#c0b3ff] mb-2">// WHY 365247</p>
+        <h2 id="why-heading" class="font-display text-[28px] sm:text-[34px] text-[#dbfcff] leading-snug">Built For You. Not Off a Template.</h2>
+        <p class="text-[#8892a4] font-mono text-sm mt-2">Everything we deliver is custom — no cookie-cutter themes.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-        <!-- Article 1 -->
-        <article class="terminal-card group flex flex-col h-full overflow-hidden" itemscope itemtype="https://schema.org/NewsArticle">
-          <div class="h-2 bg-primary-container w-1/4 group-hover:w-full transition-all duration-500" aria-hidden="true"></div>
-          <div class="relative h-48 overflow-hidden">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-              itemprop="image"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6YIZ_uoGa0KiIE1chLaWwd2auKPV055h0vQ8F8eg_nyvy4H3aM_tLD4IrRHb4dMy6hwCL9XNNf1itp1haHqta8v2xAqu1cRRSktip5f0X9FX-7rWxoO0xB8Wy-3pJTNYSq4_X2YszLd01nwXhGR7qCJdy5GpPJ9_ab_FkTUuZyzAsmA2hDRokRLRIfRvhi728mv14k6lhS-iq0wOAmaCibRH-udn_AY_IjAbsauD9qZgELR9v58taVTaWVnc4uBigY9zWkCTUKSk"
-              alt="Futuristic laboratory with a glowing blue quantum processor at the center of fiber-optic cables and cooling pipes, dark cyan-lit cybersecurity mood"
-              width="600" height="400"
-            />
-            <div class="absolute top-4 left-4 bg-bg-deep/80 backdrop-blur px-2 py-1 font-status-bar text-status-bar text-primary-fixed-dim border border-primary-fixed-dim" itemprop="articleSection">
-              QUANTUM COMPUTING
-            </div>
-          </div>
-          <div class="p-6 flex flex-col flex-grow">
-            <div class="font-status-bar text-status-bar text-text-dim mb-2">
-              <time itemprop="datePublished" datetime="2024-10-12">DATE: 2024.10.12</time> | REF: QC_001
-            </div>
-            <h3 class="font-headline-md text-[20px] text-primary mb-4 group-hover:text-primary-container transition-colors" itemprop="headline">
-              <a href="/intel/quantum-leap" itemprop="url" class="after:absolute after:inset-0 after:content-['']">
-                The Quantum Leap: Redefining Encryption Limits
-              </a>
-            </h3>
-            <p class="font-body-md text-sm text-on-surface-variant mb-6 line-clamp-3" itemprop="description">
-              New topological qubit stabilizes coherence at record temperatures, threatening current RSA standards while promising a new era of computational power.
-            </p>
-            <span class="mt-auto font-code-sm text-code-sm text-primary-fixed-dim flex items-center gap-2 group-hover:translate-x-2 transition-transform">
-              READ_FILE <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
-            </span>
-          </div>
-        </article>
-
-        <!-- Article 2 -->
-        <article class="terminal-card group flex flex-col h-full overflow-hidden" itemscope itemtype="https://schema.org/NewsArticle">
-          <div class="h-2 bg-on-tertiary-container w-1/4 group-hover:w-full transition-all duration-500" aria-hidden="true"></div>
-          <div class="relative h-48 overflow-hidden">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-              itemprop="image"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_KVDtaJnWQcfD3VBYf8bABDC51J3NwcZh2TKT7SgZ5pZNPEzSuZSH_T9cCiyQMd7h1HAMMmFUE2Fl6xrWR53LNrBz-KCdaGTPZHHwWjzH4svp2cZFsRDCqiRny6X35OfHY7esjM1UMXg6h2JFE6RDLtmKqq7c3CGfevIBYO0sx97mNpE3NPJhIjMKP1MbuB28Ku6t77UxMifttm5jjqGfPFQVfKAt5Tsscnx9HgZApyGjkihawsI-Dm3-vsexD7-gyWWBkHdiuK8"
-              alt="High-tech security operations center with multiple monitors showing red and green alerts and streaming hex code"
-              width="600" height="400"
-            />
-            <div class="absolute top-4 left-4 bg-bg-deep/80 backdrop-blur px-2 py-1 font-status-bar text-status-bar text-error border border-error" itemprop="articleSection">
-              CYBERSECURITY
-            </div>
-          </div>
-          <div class="p-6 flex flex-col flex-grow">
-            <div class="font-status-bar text-status-bar text-text-dim mb-2">
-              <time itemprop="datePublished" datetime="2024-10-11">DATE: 2024.10.11</time> | REF: SEC_404
-            </div>
-            <h3 class="font-headline-md text-[20px] text-primary mb-4 group-hover:text-primary-container transition-colors" itemprop="headline">
-              <a href="/intel/ai-threat-detection" itemprop="url" class="after:absolute after:inset-0 after:content-['']">
-                Beyond the Firewall: AI-Driven Threat Detection
-              </a>
-            </h3>
-            <p class="font-body-md text-sm text-on-surface-variant mb-6 line-clamp-3" itemprop="description">
-              Autonomous defensive agents are now capable of predicting zero-day exploits before they are launched using pattern recognition from deep-web chatter.
-            </p>
-            <span class="mt-auto font-code-sm text-code-sm text-primary-fixed-dim flex items-center gap-2 group-hover:translate-x-2 transition-transform">
-              READ_FILE <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
-            </span>
-          </div>
-        </article>
-
-        <!-- Article 3 -->
-        <article class="terminal-card group flex flex-col h-full overflow-hidden" itemscope itemtype="https://schema.org/NewsArticle">
-          <div class="h-2 bg-secondary-fixed-dim w-1/4 group-hover:w-full transition-all duration-500" aria-hidden="true"></div>
-          <div class="relative h-48 overflow-hidden">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-              itemprop="image"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgmF2xzcnlfLAKxFxXVtUFP0U9qWZo_IshNyfBJQAqlubFID1OxxDXdh71acSF5Ux0dzjSvKLzx1D1U7ynvoh72c0N5o0ElVr_2JK4DROAByt0Lpd2U4CD0pnXcGDvnf6SjH8oPgb82VbDfgvsn3zUlBeUHWXZyRmMTcgXFvSty4w_RT6eomWqtgeuwLNTmPNR583J4_LW1y0pk0qdvD_YKhJ-kJzkxPtop7NOIxz24ziizfpcGnEgsKOYbVT--w0O_623e8xOPdg"
-              alt="Visualization of a neural network glowing in neon green and cyan against a dark background, AI core motif"
-              width="600" height="400"
-            />
-            <div class="absolute top-4 left-4 bg-bg-deep/80 backdrop-blur px-2 py-1 font-status-bar text-status-bar text-secondary-fixed-dim border border-secondary-fixed-dim" itemprop="articleSection">
-              AI REVOLUTION
-            </div>
-          </div>
-          <div class="p-6 flex flex-col flex-grow">
-            <div class="font-status-bar text-status-bar text-text-dim mb-2">
-              <time itemprop="datePublished" datetime="2024-10-10">DATE: 2024.10.10</time> | REF: AI_999
-            </div>
-            <h3 class="font-headline-md text-[20px] text-primary mb-4 group-hover:text-primary-container transition-colors" itemprop="headline">
-              <a href="/intel/agi-ethics" itemprop="url" class="after:absolute after:inset-0 after:content-['']">
-                Sentience Protocols: The Ethics of AGI
-              </a>
-            </h3>
-            <p class="font-body-md text-sm text-on-surface-variant mb-6 line-clamp-3" itemprop="description">
-              As LLMs transition into fully autonomous agents, the industry debates the implementation of "hard-coded" ethical kill-switches.
-            </p>
-            <span class="mt-auto font-code-sm text-code-sm text-primary-fixed-dim flex items-center gap-2 group-hover:translate-x-2 transition-transform">
-              READ_FILE <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
-            </span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <div class="max-w-container-max mx-auto px-gutter py-12">
-      <div class="circuit-divider" aria-hidden="true"></div>
-    </div>
-
-    <!-- ============================================ -->
-    <!--  FAQ  (rich result eligible)                 -->
-    <!-- ============================================ -->
-    <section class="py-section-gap px-gutter max-w-container-max mx-auto" aria-labelledby="faq-heading">
-      <div class="border-l-4 border-secondary-fixed-dim pl-6 mb-12">
-        <h2 id="faq-heading" class="font-headline-md text-headline-md text-primary mb-2">FAQ_PROTOCOL <span aria-hidden="true">//</span> Frequently Queried</h2>
-        <p class="font-code-sm text-code-sm text-text-dim">Common signals from the operator population</p>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-6">
-        <details class="terminal-card p-6 group" open>
-          <summary class="font-headline-md text-[18px] text-primary cursor-pointer list-none flex items-center justify-between">
-            What is 365247.net?
-            <span class="material-symbols-outlined text-primary-fixed-dim transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
-          </summary>
-          <p class="mt-4 font-body-md text-sm text-on-surface-variant">
-            A daily technical intelligence stream covering quantum computing, cybersecurity, AI research, and emerging engineering trends — curated for working engineers.
-          </p>
-        </details>
-
-        <details class="terminal-card p-6 group">
-          <summary class="font-headline-md text-[18px] text-primary cursor-pointer list-none flex items-center justify-between">
-            Is the intel stream free?
-            <span class="material-symbols-outlined text-primary-fixed-dim transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
-          </summary>
-          <p class="mt-4 font-body-md text-sm text-on-surface-variant">
-            Yes. Newsletter subscription is free. A paid tier with deeper technical briefings and decrypted security logs is available for operators who need more.
-          </p>
-        </details>
-
-        <details class="terminal-card p-6 group">
-          <summary class="font-headline-md text-[18px] text-primary cursor-pointer list-none flex items-center justify-between">
-            How often are briefings published?
-            <span class="material-symbols-outlined text-primary-fixed-dim transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span>
-          </summary>
-          <p class="mt-4 font-body-md text-sm text-on-surface-variant">
-            Daily, 24/7. All dispatches are encrypted via quantum-safe protocols.
-          </p>
-        </details>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--  NEWSLETTER                                  -->
-    <!-- ============================================ -->
-    <section class="py-section-gap px-gutter bg-surface-container-low/30" aria-labelledby="newsletter-heading">
-      <div class="max-w-4xl mx-auto border border-outline-variant p-8 md:p-16 relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none" aria-hidden="true">
-          <span class="material-symbols-outlined text-[120px] text-primary">hub</span>
+        <div class="card rounded p-7 group">
+          <span class="material-symbols-outlined text-[#00dbe9] text-3xl mb-4 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">person_check</span>
+          <h3 class="font-display text-[15px] text-[#dbfcff] mb-3">Customer-First Approach</h3>
+          <p class="text-[#b9cacb] text-sm leading-relaxed">Your requirements drive every decision. We build what you need — not what's easiest for us.</p>
         </div>
-        <div class="text-center relative z-10">
-          <h2 id="newsletter-heading" class="font-display-lg text-display-lg-mobile md:text-headline-md text-primary mb-6">JOIN THE INTEL STREAM</h2>
-          <p class="font-code-sm text-code-sm text-on-surface-variant mb-10 max-w-lg mx-auto">
-            Receive daily technical briefings, decrypted security logs, and quantum-era updates directly to your terminal.
-          </p>
 
-          <form class="flex flex-col md:flex-row gap-4 items-center" action="/api/subscribe" method="POST" novalidate>
-            <label for="newsletter-email" class="sr-only">Email address</label>
-            <div class="w-full relative">
-              <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" aria-hidden="true">alternate_email</span>
-              <input
-                id="newsletter-email"
-                name="email"
-                type="email"
-                required
-                autocomplete="email"
-                inputmode="email"
-                placeholder="ADMIN@365247.NET"
-                class="w-full bg-surface-container-highest/50 border-0 border-b border-outline focus:border-primary-container focus:ring-0 text-primary font-code-sm pl-12 py-3 transition-all placeholder:text-outline/50"
-              />
-            </div>
-            <button
-              type="submit"
-              class="w-full md:w-auto whitespace-nowrap bg-primary-container text-bg-deep font-label-caps text-label-caps px-10 py-3 hover:bg-primary-fixed-dim transition-colors shadow-[0_0_20px_rgba(0,240,255,0.3)]"
-            >
-              INITIALIZE_SYNC
-            </button>
-          </form>
-
-          <div class="mt-12 pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4">
-            <div class="flex items-center gap-2 font-code-sm text-code-sm text-text-dim">
-              <span class="material-symbols-outlined text-sm" aria-hidden="true">support_agent</span>
-              PRIMARY_UPLINK:
-              <a class="text-primary hover:text-primary-container transition-colors" href="mailto:admin@365247.net">admin@365247.net</a>
-            </div>
-            <ul class="flex gap-4" aria-label="Social channels">
-              <li><a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="https://github.com/365247net" aria-label="GitHub" rel="me noopener">terminal</a></li>
-              <li><a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="https://twitter.com/365247net" aria-label="Twitter / X" rel="me noopener">hub</a></li>
-              <li><a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="https://linkedin.com/company/365247net" aria-label="LinkedIn" rel="me noopener">share</a></li>
-            </ul>
-          </div>
+        <div class="card rounded p-7 group">
+          <span class="material-symbols-outlined text-[#00dbe9] text-3xl mb-4 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">bolt</span>
+          <h3 class="font-display text-[15px] text-[#dbfcff] mb-3">Fast Turnaround</h3>
+          <p class="text-[#b9cacb] text-sm leading-relaxed">We move quickly without cutting corners. Most projects are scoped, designed, and delivered in weeks — not months.</p>
         </div>
+
+        <div class="card rounded p-7 group">
+          <span class="material-symbols-outlined text-[#00dbe9] text-3xl mb-4 block" style="font-variation-settings:'FILL' 1" aria-hidden="true">support_agent</span>
+          <h3 class="font-display text-[15px] text-[#dbfcff] mb-3">Ongoing Support</h3>
+          <p class="text-[#b9cacb] text-sm leading-relaxed">After launch we're still here. Updates, fixes, new features — we're a long-term partner, not a one-time vendor.</p>
+        </div>
+
       </div>
     </section>
+
+    <!-- Divider -->
+    <div class="max-w-5xl mx-auto px-6"><div class="divider"></div></div>
+
+    <!-- =============================== CONTACT ============================== -->
+    <section id="contact" class="py-28 px-6" aria-labelledby="contact-heading">
+      <div class="max-w-2xl mx-auto">
+        <div class="text-center mb-14">
+          <p class="tag text-[#00dbe9] mb-3">// GET IN TOUCH</p>
+          <h2 id="contact-heading" class="font-display text-[28px] sm:text-[36px] text-[#dbfcff] mb-4 leading-snug">Ready to Build Something?</h2>
+          <p class="text-[#b9cacb] text-[15px] leading-relaxed">Tell us about your project — even a rough idea is enough to get started. We'll get back to you within 24 hours.</p>
+        </div>
+
+        <form class="card rounded p-8 md:p-10 space-y-6" action="mailto:admin@365247.net" method="GET" novalidate>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block tag text-[10px] text-[#8892a4] mb-2">YOUR NAME</label>
+              <input id="name" name="name" type="text" required autocomplete="name" placeholder="John Smith"
+                class="w-full bg-[#0e0e0e] border border-[#1e293b] focus:border-[#00f0ff] focus:ring-0 text-[#e5e2e1] font-mono text-sm px-4 py-3 rounded transition-colors placeholder:text-[#3b494b]" />
+            </div>
+            <div>
+              <label for="email" class="block tag text-[10px] text-[#8892a4] mb-2">EMAIL ADDRESS</label>
+              <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@company.com"
+                class="w-full bg-[#0e0e0e] border border-[#1e293b] focus:border-[#00f0ff] focus:ring-0 text-[#e5e2e1] font-mono text-sm px-4 py-3 rounded transition-colors placeholder:text-[#3b494b]" />
+            </div>
+          </div>
+
+          <div>
+            <label for="service" class="block tag text-[10px] text-[#8892a4] mb-2">WHAT DO YOU NEED?</label>
+            <select id="service" name="service"
+              class="w-full bg-[#0e0e0e] border border-[#1e293b] focus:border-[#00f0ff] focus:ring-0 text-[#e5e2e1] font-mono text-sm px-4 py-3 rounded transition-colors">
+              <option value="">Select a service…</option>
+              <option value="website">Website Design &amp; Development</option>
+              <option value="software">Custom Software Development</option>
+              <option value="both">Both — Website &amp; Software</option>
+              <option value="unsure">Not sure yet — let's talk</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message" class="block tag text-[10px] text-[#8892a4] mb-2">DESCRIBE YOUR PROJECT</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us what you're building — what it does, who it's for, any features you have in mind…"
+              class="w-full bg-[#0e0e0e] border border-[#1e293b] focus:border-[#00f0ff] focus:ring-0 text-[#e5e2e1] font-mono text-sm px-4 py-3 rounded transition-colors placeholder:text-[#3b494b] resize-none"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full text-center">
+            [ SEND MESSAGE ]
+          </button>
+
+          <p class="text-center tag text-[10px] text-[#8892a4]">
+            OR EMAIL US DIRECTLY AT
+            <a href="mailto:admin@365247.net" class="text-[#00dbe9] hover:text-[#00f0ff] transition-colors">ADMIN@365247.NET</a>
+          </p>
+        </form>
+      </div>
+    </section>
+
   </main>
 
-  <!-- ============================================ -->
-  <!--  FOOTER                                      -->
-  <!-- ============================================ -->
-  <footer role="contentinfo" class="w-full py-section-gap px-gutter grid grid-cols-1 md:grid-cols-4 gap-base border-t border-outline-variant bg-surface-container-lowest">
-    <div class="col-span-1 md:col-span-2">
-      <div class="font-headline-md text-headline-md text-primary mb-4 flex items-center gap-2">
-        <span class="material-symbols-outlined" aria-hidden="true">memory</span> 365247.NET
+  <!-- =============================== FOOTER =============================== -->
+  <footer role="contentinfo" class="border-t border-[#1e293b] bg-[#0e0e0e] px-6 py-14">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <span class="material-symbols-outlined text-[#00dbe9]" style="font-variation-settings:'FILL' 1" aria-hidden="true">terminal</span>
+          <span class="font-display text-[18px] text-[#dbfcff]">365247.net</span>
+        </div>
+        <p class="text-[#8892a4] font-mono text-[12px] leading-relaxed max-w-xs">
+          A startup that builds custom websites and software tailored to your business needs. Online since 2026.
+        </p>
       </div>
-      <p class="font-code-sm text-code-sm text-text-dim max-w-sm mb-6">
-        Advanced Intelligence Interface and Data Collection Hub. Maintaining the stream since 2024. All connections encrypted via Quantum-Safe Protocols.
-      </p>
-      <div class="font-code-sm text-code-sm text-secondary-fixed-dim border border-secondary-fixed-dim/20 inline-block px-3 py-1" role="status">
-        SYSTEM_STATUS: OPERATIONAL
-      </div>
+
+      <nav aria-label="Services">
+        <h2 class="tag text-[#00dbe9] mb-5">SERVICES</h2>
+        <ul class="space-y-3 font-mono text-[12px] text-[#8892a4]">
+          <li><a href="#services" class="hover:text-[#00f0ff] transition-colors">Website Development</a></li>
+          <li><a href="#services" class="hover:text-[#00f0ff] transition-colors">Custom Software</a></li>
+          <li><a href="#process"  class="hover:text-[#00f0ff] transition-colors">How It Works</a></li>
+          <li><a href="#contact"  class="hover:text-[#00f0ff] transition-colors">Start a Project</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Company">
+        <h2 class="tag text-[#00dbe9] mb-5">COMPANY</h2>
+        <ul class="space-y-3 font-mono text-[12px] text-[#8892a4]">
+          <li><a href="#why-us"             class="hover:text-[#00f0ff] transition-colors">Why Choose Us</a></li>
+          <li><a href="mailto:admin@365247.net" class="hover:text-[#00f0ff] transition-colors">admin@365247.net</a></li>
+          <li><a href="/privacy"            class="hover:text-[#00f0ff] transition-colors">Privacy Policy</a></li>
+          <li><a href="/sitemap.xml"         class="hover:text-[#00f0ff] transition-colors">Sitemap</a></li>
+        </ul>
+      </nav>
+
     </div>
 
-    <nav aria-label="Protocols">
-      <h2 class="font-label-caps text-label-caps text-primary mb-6">PROTOCOLS</h2>
-      <ul class="space-y-3 font-code-sm text-code-sm text-text-dim">
-        <li><a class="hover:text-glow-green transition-colors" href="/security">SECURITY_HANDSHAKE</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/data-retention">DATA_RETENTION</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/privacy">PRIVACY_ENCRYPTION</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/api">API_ACCESS</a></li>
-      </ul>
-    </nav>
-
-    <nav aria-label="Footer navigation">
-      <h2 class="font-label-caps text-label-caps text-primary mb-6">NAVIGATION</h2>
-      <ul class="space-y-3 font-code-sm text-code-sm text-text-dim">
-        <li><a class="hover:text-glow-green transition-colors" href="/protocols">PROTOCOLS</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/logs">UI_LOGS</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/sitemap.xml">SITEMAP</a></li>
-        <li><a class="hover:text-glow-green transition-colors" href="/debug">DEBUG</a></li>
-      </ul>
-    </nav>
-
-    <div class="col-span-1 md:col-span-4 mt-12 pt-8 border-t border-outline-variant/30 flex justify-between items-center flex-wrap gap-4 font-code-sm text-code-sm text-text-dim">
-      <small>© <span id="copyright-year">2024</span> 365247.NET — All rights reserved</small>
-      <div class="flex gap-8">
-        <span>LAT: 37.7749° N</span>
-        <span>LNG: 122.4194° W</span>
-        <span class="text-secondary-fixed-dim animate-pulse" aria-live="polite">LIVE_SYNC_ACTIVE</span>
-      </div>
+    <div class="max-w-5xl mx-auto mt-10 pt-6 border-t border-[#1e293b] flex flex-col sm:flex-row justify-between items-center gap-4 font-mono text-[11px] text-[#8892a4]">
+      <small>© <span id="copyright-year">2026</span> 365247.NET — All rights reserved.</small>
+      <span class="text-[#00e639] animate-pulse">● ACCEPTING NEW PROJECTS</span>
     </div>
   </footer>
 
-  <!-- ============================================ -->
-  <!--  SCRIPTS (deferred to protect LCP/FID/CLS)   -->
-  <!-- ============================================ -->
+  <!-- Scripts -->
   <script defer>
     (function () {
-      // Auto copyright year
+      // Copyright year
       var y = document.getElementById('copyright-year');
       if (y) y.textContent = new Date().getFullYear();
 
-      // Respect reduced-motion: skip matrix entirely
-      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (reduce) return;
+      // Reduce motion check
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
+      // Matrix canvas
       var canvas = document.getElementById('matrix-canvas');
       if (!canvas) return;
       var ctx = canvas.getContext('2d');
-
-      function resize() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-      }
+      function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
       resize();
-
-      var alphabet = '01ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-      var fontSize = 16;
-      var rainDrops = [];
-      function initDrops() {
-        var cols = Math.floor(canvas.width / fontSize);
-        rainDrops = new Array(cols).fill(1);
-      }
-      initDrops();
-
+      var chars = '01{}[]<>/\\;:',  fs = 14, drops = [];
+      function init() { drops = new Array(Math.floor(canvas.width / fs)).fill(1); }
+      init();
       function draw() {
-        ctx.fillStyle = 'rgba(5, 6, 8, 0.05)';
+        ctx.fillStyle = 'rgba(5,6,8,0.05)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = '#00f0ff';
-        ctx.font = fontSize + 'px monospace';
-        for (var i = 0; i < rainDrops.length; i++) {
-          var text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-          ctx.fillText(text, i * fontSize, rainDrops[i] * fontSize);
-          if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) rainDrops[i] = 0;
-          rainDrops[i]++;
-        }
+        ctx.fillStyle = '#00f0ff'; ctx.font = fs + 'px monospace';
+        drops.forEach(function(d, i) {
+          ctx.fillText(chars[Math.floor(Math.random() * chars.length)], i * fs, d * fs);
+          if (d * fs > canvas.height && Math.random() > 0.975) drops[i] = 0;
+          drops[i]++;
+        });
       }
-
-      // requestAnimationFrame-throttled loop (smoother + battery-friendly)
-      var last = 0, interval = 50;
-      function loop(ts) {
-        if (ts - last >= interval) { draw(); last = ts; }
-        requestAnimationFrame(loop);
-      }
+      var last = 0;
+      function loop(ts) { if (ts - last >= 60) { draw(); last = ts; } requestAnimationFrame(loop); }
       requestAnimationFrame(loop);
-
-      // Pause when tab is hidden — saves CPU
-      document.addEventListener('visibilitychange', function () {
-        // no-op: rAF auto-throttles when hidden
-      });
-
-      window.addEventListener('resize', function () { resize(); initDrops(); });
+      window.addEventListener('resize', function () { resize(); init(); });
     })();
   </script>
-
-  <!-- ============================================ -->
-  <!--  ANALYTICS PLACEHOLDER                       -->
-  <!--  Replace with GA4 / Plausible / Umami        -->
-  <!-- ============================================ -->
-  <!--
-  <script defer data-domain="365247.net" src="https://plausible.io/js/script.js"></script>
-  -->
 </body>
 </html>
